@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<title>天气</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="js/jquery3.2.1.min.js"></script>
+	<script src="js/rem.js"></script>
+	<script src="js/index.js"></script>
+
+</head>
+<body>
+	<!-- 第一个模块开始 -->
+	<div class="first">
+		<div class="pos"><font size="3">太原市</font></div>	
+		<div class="air"><h4>空气</h4>
+     	   <h5></h5>
+		</div>
+	<div class="title1"></div>
+	<div class="title2"></div> 
+	<div class="title3">
+		<span class="wind_der"></span>
+		<span class="wind_level"></span>
+	</div>
+	<div class="title4"><font size="4">烟柳画桥，<br>风帘翠幕，<br>
+    参差十万人家。<br>
+	</font>
+	</div>
+
+ </div>
+
+
+	<!-- 第二个模块 -->
+	<div class="second">
+		<div class="today">
+			<div class="top">
+				<div class="todayTest">今天</div>
+				<div class="tem">
+				<span class="lower tmin">-11</span>
+					<span class="heigher tmax">2°/</span>
+					
+				</div>
+
+			</div>
+			<div class="bottom">
+				<div class="con c">晴</div>
+				<div class="conPic"></div>
+			</div>
+		</div>
+
+		<div class="tomorrow">
+			<div class="top">
+				<div class="todayTest">明天</div>
+				<div class="tem t">
+				<span class="lower l1">-15°</span>
+					<span class="heigher h1">2°</span>
+					
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="con c1">晴转多云</div>
+				<div class="conPic tomorrw_icon"></div>
+			</div>
+
+		 </div>
+	</div>
+	<!-- 三24h -->
+	<div class="third">
+		<div class="wrap">
+			<!-- <div class="box">
+				<div class="time">
+					<span>12</span>
+					<span>:00</span>
+				</div>
+				<div class="icon"></div>
+				<div class="timeTem">-1°</div>
+			</div> -->
+		</div>
+
+	</div>
+	<!-- 四 -->
+		<div class="forth">
+		   <div class="wrap1">
+			<!-- <div class="box">
+				<div class="time">
+					<span>1/18</span>					
+				</div>				
+				<div class="timeTem">-1°</div>
+				<div class="icon"></div>
+				<div class="max">
+					<span>1</span>					
+				</div>				
+				<div class="min">
+					<span>-1°</span>
+				</div>
+				<div class="pic"></div>	
+				<div class="t">
+					<span>多云</span>
+				</div>	
+				<div class="wind">
+					<span>西风</span><br>
+					<span>3级</span>
+				</div>	
+			</div>
+			 -->
+
+		</div>
+
+	</div>
+
+	<div class="fifth">
+		<div class="wrap">
+			<div class="box">
+				<div class="icon"></div>								
+				<div class="max">
+					<span>不带伞</span>					
+				</div>				
+				<div class="min">
+					<span>雨伞</span>
+				</div>
+		    </div>
+		    <div class="box">
+				<div class="icon"></div>								
+				<div class="max">
+					<span>不带伞</span>					
+				</div>				
+				<div class="min">
+					<span>雨伞</span>
+				</div>
+		    </div>
+		    <div class="box">
+				<div class="icon"></div>								
+				<div class="max">
+					<span>不带伞</span>					
+				</div>				
+				<div class="min">
+					<span>雨伞</span>
+				</div>
+		    </div>
+		    <div class="box">
+				<div class="icon"></div>								
+				<div class="max">
+					<span>不带伞</span>					
+				</div>				
+				<div class="min">
+					<span>雨伞</span>
+				</div>
+		    </div>
+
+		</div>
+	</div>
+
+	<div class="sixth">
+		<div class="wrap">
+			<div class="box">
+				<div class="icon"></div>								
+				<div class="max">
+					<span>不带伞</span>					
+				</div>				
+				<div class="min">
+					<span>雨伞</span>
+				</div>
+		    </div>
+		    <div class="box">
+				<div class="icon"></div>								
+				<div class="max">
+					<span>不带伞</span>					
+				</div>				
+				<div class="min">
+					<span>雨伞</span>
+				</div>
+		    </div>
+		    <div class="box">
+				<div class="icon"></div>								
+				<div class="max">
+					<span>不带伞</span>					
+				</div>				
+				<div class="min">
+					<span>雨伞</span>
+				</div>
+		    </div>
+		    <div class="box">
+				<div class="icon"></div>								
+				<div class="max">
+					<span>不带伞</span>					
+				</div>				
+				<div class="min">
+					<span>雨伞</span>
+				</div>
+		    </div>
+
+		</div>
+	</div>
+
+
+	<div class="seventh">
+		<div class="bottom">
+			<div class="box1">数据来源于中国天气网</div>
+		</div>
+	</div>
+	<div class="city">
+		<div class="search">
+			<input type="text" name="" class="searchBox" placeholder="请输入要搜索的城市">
+            <div class="button">确认</div>
+		</div>
+		<div class="citys1" >
+			<div class="hot">热门城市</div>
+			<div class="con">
+				<div class="box">北京</div>
+				<div class="box">上海</div>
+				<div class="box">深圳</div>
+				<div class="box">广州</div>
+				<div class="box">太原</div>
+				<div class="box">大连</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
